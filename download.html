@@ -1,0 +1,235 @@
+﻿<!DOCTYPE html>
+<!-- saved from url=(0069) -->
+<html><head lang="en"><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link href="" rel="shortcut icon">
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+    <title>EasyFit 2.0下载</title>
+    <style>
+    html, body {
+      height: 100%;
+      font-size: 16px;
+      font-family: Helvetica; }
+
+    body {
+      margin: 0;
+      padding: 0; }
+
+    .clearfix:before, .clearfix:after {
+      content: "";
+      display: table; }
+
+    .clearfix:after {
+      clear: both; }
+
+    .clearfix {
+      zoom: 1; }
+
+    a {
+      text-decoration: none; }
+
+    #header {
+      padding-top: 20px;
+      padding-bottom: 20px;
+      width: 100%;
+      background: url() no-repeat;
+      background-size: cover; }
+      #header .title .logo {
+        float: left;
+        margin-left: 10px;
+        width: 65px; }
+      #header .title .title-main,
+      #header .title .title-sub {
+        display: block;
+        color: #FFF;
+        text-shadow:#000 0px 0px 10px;
+        text-indent: 10px; }
+      #header .title .title-main {
+        padding-top: 10px;
+        font-size: 1.3rem; }
+        #header .title .title-main .version {
+            font-size:1rem;
+        }
+      #header .title .title-sub {
+        font-size: 1.1rem; }
+      #header .btn-group {
+        margin-top: 35px; }
+        #header .btn-group .ios-tip {
+          display: block;
+          width: 100%;
+          text-align: center;
+          color: #FFF;
+          font-size:1.1rem;
+          text-shadow:#000 0px 0px 10px;
+          margin-bottom: 10px;
+          opacity: 0; }
+        #header .btn-group .btn-down {
+          margin: 0 2.5%;
+          display: block;
+          width: 95%;
+          line-height: 1.7rem;
+          border-radius: 10px;
+          border:1px solid #999;
+          background:-webkit-gradient(linear, left top, left bottom, color-stop(0, #ebebeb), color-stop(1, #c8c8c8));
+          font-size: 0.9rem;
+          letter-spacing: 2px;
+          color: #000;
+          outline: none; }
+          #header .btn-group .btn-down:link {
+            background-color: #cccccc; }
+          #header .btn-group .btn-down:visited {
+            background-color: #cccccc; }
+          #header .btn-group .btn-down:hover {
+            background-color: #cccccc; }
+          #header .btn-group .btn-down:active {
+            background-color: #cccccc; }
+
+    #main {
+      margin: 10px 0; }
+      #main .tip {
+        margin-bottom: 10px;
+        display: block;
+        text-indent: 10px; }
+      #main .photoColl-out {
+        width: 100%;
+        overflow:scroll;  }
+        #main .photoColl-out .photoColl-in {
+          width: 200%;
+          margin-left: 10px;
+          border-bottom: 1px solid #d9d9d9; }
+          #main .photoColl-out .photoColl-in .photo {
+            float: left;
+            width: 150px;
+            margin-right: 15px;
+            border: 1px solid #dedede; }
+            #main .photoColl-out .photoColl-in .photo:last-child {
+              margin-right: 10px; }
+
+    #footer {
+      padding-left: 10px;
+      padding-bottom:20px; }
+      #footer .title {
+        display: block;
+        font-size: 1.2rem; }
+      #footer .content {
+        margin-top: 10px;
+        padding:0px 10px 0px 20px;
+        color: #666; }
+
+    #weixin {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      background-color: #000;
+      opacity: 0.8; }
+      #weixin .up {
+        margin-right: 20px;
+        float: right; }
+      #weixin .content {
+        margin-right: 68px;
+        clear: both;
+        text-align: right;
+        color: #FFF;
+        display: block;
+        font-size: 1rem;
+        line-height: 1.6rem; }
+
+    /*# sourceMappingURL=downLoadPage.css.map */
+
+    </style>
+</head>
+<body>
+    <!-- 头部 -->
+    <div id="header">
+        <div class="title">
+            <img src="" alt="EasyFit" class="logo">
+            <span class="title-main">EasyFit(<span></span>版) <span class="version">v</span></span>
+            <span class="title-sub">2016/01/18</span>
+        </div>
+        <div class="btn-group">
+            <span class="ios-tip">点击下载后，请在弹出窗口确认“安装”</span>
+            <a href="">
+                <button class="btn-down">点击下载</button>
+            </a>
+        </div>
+    </div>
+    <!-- 主体 -->
+    <div id="main">
+        <span class="tip"></span>
+        <div class="photoColl-out clearfix">
+            <div class="photoColl-in clearfix" style="width: 664px; height: 286px;">
+                <img class="photo"">
+                <img class="photo" src="">
+                <img class="photo" src="">
+                <img class="photo" src="">
+            </div>
+        </div>
+    </div>
+    <!-- 底部 -->
+    <div id="footer">
+        <span class="title">关于EasyFit</span>
+        <ul class="content">
+            <li>EasyFitEasyFitEasyFitEasyFit</li>
+        </ul>
+    </div>
+    <!-- 微信端打开提示页面 -->
+    <div id="weixin">
+        <img class="up" src="">
+        <span class="content">1.点击这里</span>
+        <span class="content">2.选择在浏览器中打开</span>
+    </div>
+    <script>
+        var versions = function(){
+            var u = navigator.userAgent, app = navigator.appVersion;
+            return {         //移动终端浏览器版本信息
+                trident: u.indexOf('Trident') > -1, //IE内核
+                presto: u.indexOf('Presto') > -1, //opera内核
+                webKit: u.indexOf('AppleWebKit') > -1, //苹果、谷歌内核
+                gecko: u.indexOf('Gecko') > -1 && u.indexOf('KHTML') == -1, //火狐内核
+                mobile: !!u.match(/AppleWebKit.*Mobile.*/), //是否为移动终端
+                ios: !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/), //ios终端
+                android: u.indexOf('Android') > -1 || u.indexOf('Linux') > -1, //android终端或uc浏览器
+                iPhone: u.indexOf('iPhone') > -1 , //是否为iPhone或者QQHD浏览器
+                iPad: u.indexOf('iPad') > -1, //是否iPad
+                webApp: u.indexOf('Safari') == -1, //是否web应该程序，没有头部与底部
+                weixin: u.toLowerCase().indexOf('micromessenger') > -1    // 是否为微信打开
+            };
+        };
+
+        // 页面加载完成触发该事件
+        window.onload = function(){
+            // 获取图片数量
+            var photo =  document.querySelectorAll("#main .photoColl-in .photo");
+            // 设定图片集内层宽度和高度
+            document.querySelectorAll("#main .photoColl-in")[0].style.width = photo.length * (photo[0].width + 16) + "px";
+            document.querySelectorAll("#main .photoColl-in")[0].style.height = photo[0].height + 20 + "px";
+
+            // 判断用户是否为ios设备或者android设备
+            if(versions().ios) {
+                // 显示ios设备的提示语
+                document.querySelectorAll("#header .btn-group .ios-tip")[0].style.opacity = 1;
+                document.querySelectorAll("#header .title-main span")[0].innerHTML = "iPhone";
+                document.querySelectorAll("#main .tip")[0].innerHTML = "iPhone";
+                // ios下载地址
+                document.querySelectorAll("#header .btn-group a")[0].href = "itms-services:///?action=download-manifest&url=https://raw.githubusercontent.com/songjiangvip/easyfit2.01/master/download.plist";
+            } else if (versions().android) {
+                document.querySelectorAll("#header .title-main span")[0].innerHTML = "android";
+                document.querySelectorAll("#main .tip")[0].innerHTML = "安卓系统";
+                // android下载地址
+                document.querySelectorAll("#header .btn-group a")[0].href = "https://raw.githubusercontent.com/songjiangvip/easyfit2.01/master/EasyFit-release-20160418191442.apk";
+           };
+
+            // 判断用户是否为微信打开该页面
+            if(versions().weixin) {
+                // 由于微信不能下载应用，故显示微信的引导页面
+                document.querySelectorAll("#weixin")[0].style.display = "block";
+                document.addEventListener('touchmove', function(){}, false)
+            };
+        };
+    </script>
+
+
+</body></html>
